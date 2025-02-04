@@ -24,7 +24,7 @@ export default function Head() {
       />
       <meta name='robots' content='index,follow' />
       <meta name='distribution' content='web' />
-      {/* 
+      {/*
       Facebook Open Graph meta tags
         documentation: https://developers.facebook.com/docs/sharing/opengraph */}
       <meta property='og:title' content={title} />
@@ -49,7 +49,7 @@ export default function Head() {
       <meta name='theme-color' content='#000' />
       <link rel='shortcut icon' href='/icons/apple-touch-icon.png' />
 
-      {/* 
+      {/*
       Twitter Summary card
         documentation: https://dev.twitter.com/cards/getting-started
         Be sure validate your Twitter card markup on the documentation site. */}
